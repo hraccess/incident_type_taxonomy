@@ -1,0 +1,15 @@
+name = Incident Type Taxonomy
+core = 7.x
+package = Access Humanitarain
+version = 7.x-1.0-beta1
+project = incident_type_taxonomy
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = taxonomy_term-access_constraints-field_long_label
+features[field][] = taxonomy_term-incident_type-field_access_constraint
+features[taxonomy][] = access_constraints
+features[taxonomy][] = incident_type
