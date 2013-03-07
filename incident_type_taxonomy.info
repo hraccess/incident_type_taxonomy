@@ -1,6 +1,6 @@
 name = Incident Type Taxonomy
 core = 7.x
-package = Access Humanitarain
+package = Access Humanitarian
 version = 7.x-1.0-beta1
 project = incident_type_taxonomy
 dependencies[] = features
